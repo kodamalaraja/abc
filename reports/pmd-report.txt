@@ -1,0 +1,117 @@
+src/main/java/com/tcs/Application.java:7:	headerCommentRequirement Required
+src/main/java/com/tcs/Application.java:8:	Avoid unused private fields such as 'b'.
+src/main/java/com/tcs/Application.java:8:	Avoid variables with short names like b
+src/main/java/com/tcs/Application.java:8:	fieldCommentRequirement Required
+src/main/java/com/tcs/Application.java:9:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/tcs/Application.java:9:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/bean/Customer.java:9:	headerCommentRequirement Required
+src/main/java/com/tcs/bean/Customer.java:13:	Avoid variables with short names like id
+src/main/java/com/tcs/bean/Customer.java:13:	fieldCommentRequirement Required
+src/main/java/com/tcs/bean/Customer.java:14:	fieldCommentRequirement Required
+src/main/java/com/tcs/bean/Customer.java:15:	fieldCommentRequirement Required
+src/main/java/com/tcs/bean/Customer.java:17:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/bean/Customer.java:21:	Avoid variables with short names like id
+src/main/java/com/tcs/bean/Customer.java:21:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/tcs/bean/Customer.java:21:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/bean/Customer.java:25:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/bean/Customer.java:29:	Parameter 'firstName' is not assigned and could be declared final
+src/main/java/com/tcs/bean/Customer.java:29:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/bean/Customer.java:33:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/bean/Customer.java:37:	Parameter 'lastName' is not assigned and could be declared final
+src/main/java/com/tcs/bean/Customer.java:37:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/bean/Customer.java:42:	Document empty constructor
+src/main/java/com/tcs/bean/Customer.java:42:	protectedMethodCommentRequirement Required
+src/main/java/com/tcs/bean/Customer.java:44:	Parameter 'firstName' is not assigned and could be declared final
+src/main/java/com/tcs/bean/Customer.java:44:	Parameter 'lastName' is not assigned and could be declared final
+src/main/java/com/tcs/bean/Customer.java:44:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/bean/Customer.java:50:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/config/SimpleCORSFilter.java:21:	Each class should declare at least one constructor
+src/main/java/com/tcs/config/SimpleCORSFilter.java:21:	headerCommentRequirement Required
+src/main/java/com/tcs/config/SimpleCORSFilter.java:23:	Parameter 'chain' is not assigned and could be declared final
+src/main/java/com/tcs/config/SimpleCORSFilter.java:23:	Parameter 'req' is not assigned and could be declared final
+src/main/java/com/tcs/config/SimpleCORSFilter.java:23:	Parameter 'res' is not assigned and could be declared final
+src/main/java/com/tcs/config/SimpleCORSFilter.java:23:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/config/SimpleCORSFilter.java:25:	Local variable 'response' could be declared final
+src/main/java/com/tcs/config/SimpleCORSFilter.java:26:	Local variable 'request' could be declared final
+src/main/java/com/tcs/config/SimpleCORSFilter.java:27:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tcs/config/SimpleCORSFilter.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tcs/config/SimpleCORSFilter.java:29:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tcs/config/SimpleCORSFilter.java:30:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tcs/config/SimpleCORSFilter.java:31:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tcs/config/SimpleCORSFilter.java:32:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/tcs/config/SimpleCORSFilter.java:32:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tcs/config/SimpleCORSFilter.java:32:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/tcs/config/SimpleCORSFilter.java:33:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tcs/config/SimpleCORSFilter.java:33:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/tcs/config/SimpleCORSFilter.java:40:	Parameter 'filterConfig' is not assigned and could be declared final
+src/main/java/com/tcs/config/SimpleCORSFilter.java:40:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/config/SimpleCORSFilter.java:46:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/controller/CustomerController.java:3:	Avoid unused imports such as 'java.util.List'
+src/main/java/com/tcs/controller/CustomerController.java:4:	Avoid unused imports such as 'java.util.Optional'
+src/main/java/com/tcs/controller/CustomerController.java:12:	Avoid unused imports such as 'org.springframework.web.bind.annotation.RequestParam'
+src/main/java/com/tcs/controller/CustomerController.java:16:	Avoid unused imports such as 'com.tcs.repository.CustomerRepository'
+src/main/java/com/tcs/controller/CustomerController.java:21:	Each class should declare at least one constructor
+src/main/java/com/tcs/controller/CustomerController.java:21:	headerCommentRequirement Required
+src/main/java/com/tcs/controller/CustomerController.java:22:	Use explicit scoping instead of the default package private level
+src/main/java/com/tcs/controller/CustomerController.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/tcs/controller/CustomerController.java:23:	To avoid mistakes add a comment at the beginning of the service field if you want a default access modifier
+src/main/java/com/tcs/controller/CustomerController.java:23:	fieldCommentRequirement Required
+src/main/java/com/tcs/controller/CustomerController.java:26:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/controller/CustomerController.java:27:	Local variable 'out' could be declared final
+src/main/java/com/tcs/controller/CustomerController.java:28:	Consider simply returning the value vs storing it in local variable 'out'
+src/main/java/com/tcs/controller/CustomerController.java:32:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/controller/CustomerController.java:39:	Avoid variables with short names like id
+src/main/java/com/tcs/controller/CustomerController.java:39:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/tcs/controller/CustomerController.java:39:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/controller/CustomerController.java:40:	Found 'DD'-anomaly for variable 'result' (lines '40'-'42').
+src/main/java/com/tcs/controller/CustomerController.java:49:	Parameter 'customer' is not assigned and could be declared final
+src/main/java/com/tcs/controller/CustomerController.java:49:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/controller/CustomerController.java:50:	Avoid variables with short names like c
+src/main/java/com/tcs/controller/CustomerController.java:50:	Found 'DD'-anomaly for variable 'c' (lines '50'-'52').
+src/main/java/com/tcs/controller/CustomerController.java:51:	Use equals() to compare strings instead of '==' or '!='
+src/main/java/com/tcs/controller/CustomerController.java:51:	Use equals() to compare strings instead of '==' or '!='
+src/main/java/com/tcs/controller/CustomerController.java:59:	Avoid variables with short names like id
+src/main/java/com/tcs/controller/CustomerController.java:59:	Parameter 'customer' is not assigned and could be declared final
+src/main/java/com/tcs/controller/CustomerController.java:59:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/tcs/controller/CustomerController.java:59:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/controller/CustomerController.java:60:	Found 'DD'-anomaly for variable 'result' (lines '60'-'62').
+src/main/java/com/tcs/controller/CustomerController.java:61:	Use equals() to compare strings instead of '==' or '!='
+src/main/java/com/tcs/controller/CustomerController.java:61:	Use equals() to compare strings instead of '==' or '!='
+src/main/java/com/tcs/controller/CustomerController.java:68:	Avoid variables with short names like id
+src/main/java/com/tcs/controller/CustomerController.java:68:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/tcs/controller/CustomerController.java:68:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/controller/CustomerController.java:69:	Found 'DD'-anomaly for variable 'out' (lines '69'-'71').
+src/main/java/com/tcs/controller/CustomerController.java:72:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/tcs/repository/CustomerRepository.java:7:	Avoid unused imports such as 'org.springframework.stereotype.Service'
+src/main/java/com/tcs/repository/CustomerRepository.java:12:	headerCommentRequirement Required
+src/main/java/com/tcs/repository/CustomerRepository.java:14:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/service/CustomerService.java:5:	Avoid unused imports such as 'org.springframework.web.bind.annotation.PathVariable'
+src/main/java/com/tcs/service/CustomerService.java:6:	Avoid unused imports such as 'org.springframework.web.bind.annotation.RequestBody'
+src/main/java/com/tcs/service/CustomerService.java:14:	Each class should declare at least one constructor
+src/main/java/com/tcs/service/CustomerService.java:14:	headerCommentRequirement Required
+src/main/java/com/tcs/service/CustomerService.java:15:	Use explicit scoping instead of the default package private level
+src/main/java/com/tcs/service/CustomerService.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/tcs/service/CustomerService.java:16:	To avoid mistakes add a comment at the beginning of the repository field if you want a default access modifier
+src/main/java/com/tcs/service/CustomerService.java:16:	fieldCommentRequirement Required
+src/main/java/com/tcs/service/CustomerService.java:18:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/service/CustomerService.java:27:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/service/CustomerService.java:36:	Avoid variables with short names like id
+src/main/java/com/tcs/service/CustomerService.java:36:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/tcs/service/CustomerService.java:36:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/service/CustomerService.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/tcs/service/CustomerService.java:42:	Parameter 'customer' is not assigned and could be declared final
+src/main/java/com/tcs/service/CustomerService.java:42:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/service/CustomerService.java:43:	Avoid variables with short names like c
+src/main/java/com/tcs/service/CustomerService.java:43:	Local variable 'c' could be declared final
+src/main/java/com/tcs/service/CustomerService.java:44:	Consider simply returning the value vs storing it in local variable 'c'
+src/main/java/com/tcs/service/CustomerService.java:47:	Avoid variables with short names like id
+src/main/java/com/tcs/service/CustomerService.java:47:	Parameter 'customer' is not assigned and could be declared final
+src/main/java/com/tcs/service/CustomerService.java:47:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/tcs/service/CustomerService.java:47:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/service/CustomerService.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/tcs/service/CustomerService.java:50:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tcs/service/CustomerService.java:51:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tcs/service/CustomerService.java:57:	Avoid variables with short names like id
+src/main/java/com/tcs/service/CustomerService.java:57:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/tcs/service/CustomerService.java:57:	publicMethodCommentRequirement Required
+src/main/java/com/tcs/service/CustomerService.java:58:	Local variable 'out' could be declared final
